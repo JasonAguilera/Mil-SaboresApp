@@ -1,8 +1,11 @@
 package com.example.milsaboresapp
 
-import android.os.Bundleimport androidx.activity.ComponentActivityimport androidx.activity.compose.setContent
+import android.os.Bundle
+import androidx.activity.ComponentActivity
+import androidx.activity.compose.setContent
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
+import com.example.milsaboresapp.nav.AppNav
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
